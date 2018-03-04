@@ -37,9 +37,9 @@ public class SinglyLinkedList {
 
     /**
      * Print the elements in the singly linked list
-     * @param head
+     *
      */
-    public void printSinglyLinkedList(ListNode head){
+    public void printSinglyLinkedList(){
         if(head == null) {
             System.out.println("List is Empty");
         }
@@ -96,4 +96,76 @@ public class SinglyLinkedList {
         }
     }
 
+    /**
+     * Method to delete the head element of the list and returns head
+     * @return
+     */
+    public synchronized ListNode deleteAtBeginning(){
+        ListNode node = head;
+        if(head == null)
+            System.out.println("List is empty. Cannot be deleted");
+        else{
+            head = head.getNext();
+            node.setNext(null);
+            length--;
+        }
+        return node;
+    }
+
+
+    /**
+     * Deletes node at the end of the list and returns it
+     * @return
+     */
+    public synchronized ListNode deleteAtEnd(){
+        ListNode node = head;
+        if(head == null){
+            System.out.println("List is empty. Cannot be deleted");
+            return null;
+        }
+        else{
+            ListNode prev = null;
+            while(node.getNext()!= null){
+                prev = node;
+                node = node.getNext();
+            }
+
+            prev.setNext(null);
+            length--;
+            return node;
+        }
+    }
+
+    /**
+     * Method to delete first node that contains given data
+     */
+    public synchronized void deleteNode(int data){
+        boolean found = false;
+        if(head == null)
+            System.out.println("List is empty Cannot be deleted");
+        else{
+            int pos = 1;
+            ListNode current = head;
+            ListNode prev = current;
+            while(current.getData() != data && current.getNext() != null){
+                prev = current;
+                current = current.getNext();
+                pos++;
+            }
+            if(pos == 1 && current.getData() == data)
+                deleteAtBeginning();
+            else if(pos == length)
+                deleteAtEnd();
+            else {
+                prev.setNext(current.getNext());
+                current.setNext(null);
+                found = true;
+            }
+        }
+        if(found){
+            length--;
+        }
+        else
+            System.out.println("No data found to delete");
+    }
 }

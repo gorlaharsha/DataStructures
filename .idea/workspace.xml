@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c359bc27-3d4f-4426-86c4-6a491fcab469" name="Default" comment="" />
+    <list default="true" id="c359bc27-3d4f-4426-86c4-6a491fcab469" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/linkedList/SinglyLinkedList.java" afterPath="$PROJECT_DIR$/src/main/linkedList/SinglyLinkedList.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/linkedListTests/SinglyLinkedListTest.java" afterPath="$PROJECT_DIR$/src/test/linkedListTests/SinglyLinkedListTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +40,8 @@
       <file leaf-file-name="SinglyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/linkedList/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+            <state relative-caret-position="365">
+              <caret line="161" column="29" lean-forward="true" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
               <folding>
                 <element signature="e#283#284#0" expanded="true" />
                 <element signature="e#310#311#0" expanded="true" />
@@ -53,8 +57,8 @@
       <file leaf-file-name="SinglyLinkedListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/linkedListTests/SinglyLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="347">
+              <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +74,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -88,8 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/SinglyLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/linkedList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/linkedList/SinglyLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/test/linkedListTests/SinglyLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/linkedList/SinglyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/linkedListTests/SinglyLinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -100,10 +107,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="106" />
+    <option name="y" value="34" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -180,42 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.insertAtMiddleTestSuccess">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructures" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
-    <configuration name="SinglyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="main.linkedList.SinglyLinkedListTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructures" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.deleteGivenNodeSuccess">
     <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -230,6 +203,81 @@
       <option name="MAIN_CLASS_NAME" value="test.linkedListTests.SinglyLinkedListTest" />
       <option name="METHOD_NAME" value="insertAtMiddleTestSuccess" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SinglyLinkedListTest.deleteAtBeginningTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.linkedListTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataStructures" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.linkedListTests" />
+      <option name="MAIN_CLASS_NAME" value="test.linkedListTests.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="deleteAtBeginningTestSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SinglyLinkedListTest.deleteAtEndTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.linkedListTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataStructures" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.linkedListTests" />
+      <option name="MAIN_CLASS_NAME" value="test.linkedListTests.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="deleteAtEndTestSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SinglyLinkedListTest.deleteGivenNodeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.linkedListTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataStructures" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.linkedListTests" />
+      <option name="MAIN_CLASS_NAME" value="test.linkedListTests.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="deleteGivenNodeSuccess" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -281,18 +329,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SinglyLinkedListTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.insertAtMiddleTestSuccess" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.insertAtMiddleTestSuccess" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.deleteAtBeginningTestSuccess" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.deleteAtEndTestSuccess" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.deleteGivenNodeSuccess" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.insertAtMiddleTestSuccess" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SinglyLinkedListTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.deleteGivenNodeSuccess" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.deleteAtEndTestSuccess" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.deleteAtBeginningTestSuccess" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest.insertAtMiddleTestSuccess" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -314,59 +364,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520183505268</updated>
-      <workItem from="1520183507016" duration="10637000" />
+      <workItem from="1520183507016" duration="17827000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 39m 46s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteAtEndTestSuccess - 2018.03.04 at 16h 18m 32s.xml">
+      <configuration name="SinglyLinkedListTest.deleteAtEndTestSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 39m 56s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteAtEndTestSuccess - 2018.03.04 at 16h 21m 46s.xml">
+      <configuration name="SinglyLinkedListTest.deleteAtEndTestSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 41m 40s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteAtEndTestSuccess - 2018.03.04 at 16h 29m 21s.xml">
+      <configuration name="SinglyLinkedListTest.deleteAtEndTestSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 44m 48s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteAtEndTestSuccess - 2018.03.04 at 16h 29m 57s.xml">
+      <configuration name="SinglyLinkedListTest.deleteAtEndTestSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 45m 02s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteGivenNodeSuccess - 2018.03.04 at 17h 20m 54s.xml">
+      <configuration name="SinglyLinkedListTest.deleteGivenNodeSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 47m 21s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteGivenNodeSuccess - 2018.03.04 at 17h 21m 26s.xml">
+      <configuration name="SinglyLinkedListTest.deleteGivenNodeSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 47m 33s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteGivenNodeSuccess - 2018.03.04 at 17h 21m 37s.xml">
+      <configuration name="SinglyLinkedListTest.deleteGivenNodeSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 48m 41s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteGivenNodeSuccess - 2018.03.04 at 17h 28m 02s.xml">
+      <configuration name="SinglyLinkedListTest.deleteGivenNodeSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 49m 02s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteGivenNodeSuccess - 2018.03.04 at 17h 28m 28s.xml">
+      <configuration name="SinglyLinkedListTest.deleteGivenNodeSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListTest_insertAtMiddleTestSuccess - 2018.03.04 at 14h 49m 59s.xml">
-      <configuration name="SinglyLinkedListTest.insertAtMiddleTestSuccess" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListTest_deleteGivenNodeSuccess - 2018.03.04 at 17h 28m 51s.xml">
+      <configuration name="SinglyLinkedListTest.deleteGivenNodeSuccess" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10637000" />
+    <option name="totallyTimeSpent" value="17827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="106" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="34" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3105413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3105413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -378,7 +428,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39782345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3974359" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -425,15 +475,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/linkedList/SinglyLinkedList.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -475,8 +517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/linkedListTests/SinglyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="347">
+          <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -485,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/linkedList/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        <state relative-caret-position="365">
+          <caret line="161" column="29" lean-forward="true" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
           <folding>
             <element signature="e#283#284#0" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
