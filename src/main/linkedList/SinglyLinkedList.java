@@ -168,4 +168,23 @@ public class SinglyLinkedList {
         else
             System.out.println("No data found to delete");
     }
+
+    /**
+     * Method to delete node at a given position.
+     * @param position
+     */
+    public synchronized void deleteAtPosition(int position){
+        ListNode node = head;
+        if(position <=1)
+            deleteAtBeginning();
+        else if(position >= length)
+            deleteAtEnd();
+        else{
+            for(position--; position > 0; position --){
+                node = node.getNext();
+            }
+            length--;
+        }
+
+    }
 }

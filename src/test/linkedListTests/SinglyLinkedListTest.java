@@ -58,4 +58,16 @@ public class SinglyLinkedListTest {
         singleList.printSinglyLinkedList();
         Assert.assertEquals(singleList.getLength(), 1);
     }
+
+    @Test
+    public void deleteAtGivenPositionSuccess(){
+        SinglyLinkedList singleList = new SinglyLinkedList();
+        ListNode node = new ListNode(1,null);
+        ListNode node1 = new ListNode(2,null);
+        singleList.insertAtMiddle(node1,4);
+        singleList.insertAtBeginning(node);
+        singleList.deleteAtPosition(2);
+        singleList.deleteAtPosition(1);
+        Assert.assertEquals(singleList.getLength(), 0);
+    }
 }
